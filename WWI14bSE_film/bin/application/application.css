@@ -1,0 +1,154 @@
+/*Alphabetische Sortierung der Elemente */
+/*******************************************************************************
+ *                                                                             *
+ * Anchor Pane                                                                 *
+ *                                                                             *
+ ******************************************************************************/
+.anchor-pane{
+	-fx-background-color: white;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Button                                                                      *
+ *                                                                             *
+ ******************************************************************************/
+.button{
+    -fx-font-size: 13.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: #929292;
+    -fx-background-color: white;
+	-fx-border-color: null;
+	-fx-border-width: 2.0px;
+}
+#bt_notiz:hover{
+	-fx-border-color: #2196F3;
+}
+#bt_favorit:hover{
+	-fx-border-color: #DF013A;
+}
+#bt_gesehen:hover{
+	-fx-border-color: #01DF01;
+}
+#bt_merken:hover{
+	-fx-border-color: #FFFF00; 
+}
+#bt_suche_datenbank{
+	-fx-text-fill: #585858;
+}
+#bt_suche_datenbank:hover{
+	-fx-background-color: #2196F3;
+	-fx-text-fill: white;
+}
+#bt_suche_f{
+	-fx-text-fill: #585858;
+}
+#bt_suche_f:hover{
+	-fx-background-color: #2196F3;
+	-fx-text-fill: white;
+}
+#bt_suche_m{
+	-fx-text-fill: #585858;
+}
+#bt_suche_m:hover{
+	-fx-background-color: #2196F3;
+	-fx-text-fill: white;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Label                                                                       *
+ *                                                                             *
+ ******************************************************************************/
+.label{
+	-fx-font-size: 13.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: #585858;
+}
+#lb_titel{
+	-fx-font-size: 22.0px;
+	-fx-font-style: oblique;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * ListView                                                                    *
+ *                                                                             *
+ ******************************************************************************/
+.list-cell:even{
+    -fx-background-color: white;
+    -fx-text-fill: #585858;
+}
+.list-cell:filled:hover{
+    -fx-background-color: #BDBDBD;
+    -fx-text-fill: white;
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected{
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * SplitPane                                                                   *
+ *                                                                             *
+ ******************************************************************************/
+.split-pane{
+	-fx-background-color: white;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * TabPane                                                                     *
+ *                                                                             *
+ ******************************************************************************/
+.tab{
+	-fx-background-color: white;
+	-fx-pref-width: 89.0px;
+	-fx-border-radius: 6.0px 6.0px 0.0px 0.0px;
+}
+.tab:selected{
+	-fx-background-color: lightblue;
+}
+.tab-header-background{
+	-fx-background-color: white;	
+}
+.tab-label{
+	-fx-font-size: 13.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: #585858;
+}
+#tb_favoriten{
+	-fx-pref-width: 92.0px;
+	-fx-border-color: #DF013A #DF013A transparent #DF013A;
+}
+#tb_merkliste{
+	-fx-border-color: #FFFF00 #FFFF00 transparent #FFFF00;
+}
+#tb_datenbank{
+	-fx-pref-width: 80.0px;
+	-fx-border-color: #2196F3 #2196F3 transparent #2196F3;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * TextArea                                                                    *
+ *                                                                             *
+ ******************************************************************************/
+.text-area{
+	-fx-border-color: white;
+	-fx-font-size: 13.0px;
+	-fx-font-family: "Segoe UI Semibold";
+	-fx-text-fill: #585858;	
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * TextField                                                                   *
+ *                                                                             *
+ ******************************************************************************/
+.text-field{
+	-fx-font-family:"Segoe UI Semibold";
+	-fx-font-size: 13.0px;
+	-fx-text-fill: #585858;
+}
